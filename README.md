@@ -18,7 +18,7 @@ When faced with a mix of different transformations (blur, noise, rotation, and s
 
 No Universal "Best" Tool: This research concludes that there is no single "best" feature description technique. The most effective pipeline is the one that aligns its chosen feature descriptor with the specific challenges and conditions of the intended application.
 
-# Experimental Setup \
+# Experimental Setup 
 This project uses three different machine learning pipelines, each with a distinct feature descriptor.
 
 # Feature Descriptors:
@@ -42,19 +42,22 @@ We systematically tested the pipelines against images subjected to rotation, sca
 
 # Key Findings
 The experimental results highlight the following key insights:
-### The Achilles' Heel of Simple Models: Raw pixel-based models perform well on clean images but are highly sensitive to rotation.
-### SIFT's Proven Robustness: The SIFT pipeline, especially with an LR classifier, shows remarkable resilience to rotation, outperforming the other methods.
-### HOG's Practicality: HOG is a well-balanced choice, proving highly stable against scaling and blurring, even while it struggles with rotation.
+### The Achilles' Heel of Simple Models
+Raw pixel-based models perform well on clean images but are highly sensitive to rotation.
+### SIFT's Proven Robustness
+The SIFT pipeline, especially with an LR classifier, shows remarkable resilience to rotation, outperforming the other methods.
+### HOG's Practicality
+HOG is a well-balanced choice, proving highly stable against scaling and blurring, even while it struggles with rotation.
 
 # Getting Started
 To run this project, you will need to install the required dependencies.
 
-## Clone the repository:
+## Clone the repository
 
 git clone https://github.com/CKLekhana/Exploring-Image-Features-and-Implementing-Classical-Classification-Models.git \
 cd Exploring-Image-Features-and-Implementing-Classical-Classification-Models
 
-# Install dependencies:
+# Install dependencies
 This project was built with Python. You will need libraries such as scikit-learn, OpenCV (cv2), NumPy, and Matplotlib.
 
 pip install -r requirements.txt
