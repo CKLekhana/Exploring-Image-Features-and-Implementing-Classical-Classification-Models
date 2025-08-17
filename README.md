@@ -49,21 +49,15 @@ To run this project, you will need to install the required dependencies.
 
 Clone the repository:
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/CKLekhana/Exploring-Image-Features-and-Implementing-Classical-Classification-Models.git
+cd Exploring-Image-Features-and-Implementing-Classical-Classification-Models
 
 Install dependencies:
-This project was likely built with Python. You will need libraries such as scikit-learn, OpenCV (cv2), NumPy, and Matplotlib.
+This project was built with Python. You will need libraries such as scikit-learn, OpenCV (cv2), NumPy, and Matplotlib.
 
 pip install -r requirements.txt
 
 (Note: If a requirements.txt file is not included, please create one based on the dependencies used in your code.)
-
-Run the analysis script:
-
-python main_script.py
-
-(Note: Replace main_script.py with the name of your main project file.)
 
 Conclusion
 This research demonstrates that choosing the right feature descriptor is a critical trade-off between simplicity and resilience. The most effective computer vision pipeline is one that aligns the chosen feature descriptor with the specific challenges and conditions of the intended application.
