@@ -4,7 +4,7 @@ import InfographicPage from "./InfographicPage"
 let router = createBrowserRouter([
   {
     path: "/",
-    element: <InfographicPage></InfographicPage>,
+    element: <InfographicPage/>,
   }
 ])
 
