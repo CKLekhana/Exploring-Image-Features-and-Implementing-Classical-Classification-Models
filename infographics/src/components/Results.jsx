@@ -1,5 +1,4 @@
 import React from "react"
-import Test from "./Test"
 import Baseline_Performance from "./charts/Baseline_Performance"
 import Rotation_Scaling_Performance from "./charts/Rotation_Scaling"
 import BlurNoiseCombined from "./charts/BlurNoiseMixed"
