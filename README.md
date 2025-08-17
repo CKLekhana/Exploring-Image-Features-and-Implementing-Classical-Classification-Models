@@ -49,7 +49,7 @@ To run this project, you will need to install the required dependencies.
 
 Clone the repository:
 
-git clone https://github.com/CKLekhana/Exploring-Image-Features-and-Implementing-Classical-Classification-Models.git
+git clone https://github.com/CKLekhana/Exploring-Image-Features-and-Implementing-Classical-Classification-Models.git \
 cd Exploring-Image-Features-and-Implementing-Classical-Classification-Models
 
 Install dependencies:
