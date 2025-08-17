@@ -64,5 +64,5 @@ pip install -r requirements.txt
 
 (Note: If a requirements.txt file is not included, please create one based on the dependencies used in your code.)
 
-Conclusion
+# Conclusion
 This research demonstrates that choosing the right feature descriptor is a critical trade-off between simplicity and resilience. The most effective computer vision pipeline is one that aligns the chosen feature descriptor with the specific challenges and conditions of the intended application.
