@@ -1,11 +1,11 @@
 import React from "react"
 import  {useNavigate} from "react-router-dom"
-import Header from "./components/Header.jsx"
-import Landing from "./components/Landing.jsx"
-import Results from "./components/Results.jsx"
-import Conclusion from "./components/Conclusion.jsx"
-import ProblemStmt from "./components/ProblemStmt.jsx"
-import Methodology from "./components/Methodology.jsx"
+import Header from "./components/Header"
+import Landing from "./components/Landing"
+import Results from "./components/Results"
+import Conclusion from "./components/Conclusion"
+import ProblemStmt from "./components/ProblemStmt"
+import Methodology from "./components/Methodology"
 
 const InfographicPage = () => {
     
