@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom"
-import InfographicPage from "./InfographicPage"
+import InfographicPage from "./InfographicPage.jsx"
 
 let router = createBrowserRouter([
   {
